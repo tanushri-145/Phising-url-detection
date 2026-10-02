@@ -1,0 +1,39 @@
+# Phishing URL Detection Using Machine Learning
+
+A web application that detects potentially
+phishing URLs using a machine learning model.
+
+## Features
+
+- Detect potentially malicious URLs
+- Machine learning-based predictions
+- Simple and responsive user interface
+- Local model inference
+
+## Technologies Used
+
+- Python
+- Flask
+- ONNX Runtime
+- HTML
+- CSS
+- JavaScript
+- Hugging Face
+
+## Project Structure
+
+- frontend/: Website interface
+- backend/: Flask API and ML model
+
+## How to Run
+
+1. Clone this repository.
+2. Install the Python dependencies.
+3. Download the model.
+4. Start the Flask backend.
+5. Open the frontend using Live Server.
+
+## Disclaimer
+
+Predictions are estimates and should not
+be treated as a guarantee of website safety.

@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Phishing URL Detector</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <div class="icon">🛡️</div>
+
+        <h1>Phishing URL Detector</h1>
+
+        <p class="subtitle">
+            Protect yourself from suspicious websites.
+            Check a URL using Machine Learning.
+        </p>
+
+        <form id="url-form">
+
+            <label for="url-input">Enter Website URL</label>
+
+            <input
+                type="text"
+                id="url-input"
+                placeholder="https://example.com"
+                autocomplete="url"
+                required
+            >
+
+            <button type="submit" id="check-button">
+                Detect Phishing
+            </button>
+
+        </form>
+
+        <div id="status" role="status" aria-live="polite"></div>
+
+        <section id="result" class="result hidden">
+
+            <h2 id="prediction"></h2>
+
+            <p id="checked-url"></p>
+
+            <p>
+                Phishing Probability:
+                <strong id="score"></strong>
+            </p>
+
+        </section>
+
+        <p class="disclaimer">
+            Note: Machine learning predictions are not a guarantee
+            that a website is safe. Always verify suspicious links.
+        </p>
+
+    </main>
+
+</body>
+</html>
